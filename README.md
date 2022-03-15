@@ -6,7 +6,7 @@ For each URL you need to send a GET HTTP request and count the number of occurre
 
 At the end the application displays the total number of "Go" strings found in all passed URLs, for example:
 
-$ echo -e 'https://golang.org\nhttps://golang.org' | go run 1.go
+$ echo -e 'https://golang.org\nhttps://golang.org' | go run main.go
 Count for https://golang.org: 9
 Count for https://golang.org: 9
 Total: 18
